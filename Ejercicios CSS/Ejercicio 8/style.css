@@ -1,3 +1,16 @@
 body {
-    background-color: rgb(164, 186, 206);
-  }
+  background-color: rgb(164, 186, 206);
+}
+
+a {
+  color: #cc0000;
+}
+
+a :hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+a :visited {
+  color: #ccc;
+}
