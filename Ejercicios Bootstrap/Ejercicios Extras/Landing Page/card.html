@@ -19,10 +19,18 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/card.css" />
+    <script src="./js/card.js"></script>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"">Egg Cooperation</a>
+      <a
+        class="navbar-brand"
+        target="_blank"
+        href="https://eggeducacion.com/es-AR/somos-egg/"
+      >
+        <img src="./images/logo.jpeg" width="40px" height="40px" /> Egg
+        Cooperation</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -44,15 +52,17 @@
     </div>
   </nav>
   <body>
-    <div class="card" style="width: 18rem">
-      <img src="./images/cardexample.jpg" class="card-img-top" alt="..."/>
+    <div class="card" style="width: 20rem">
+      <img src="./images/cardexample.jpeg" class="card-img-top" alt="..." />
       <div class="card-body">
         <h4 align="center">$59.999</h4>
         <p class="card-text" align="center">
-          Curso Full Stack Developer Egg Cooperation 2022.
+          Curso Programación desde Cero Egg Cooperation 2022.
         </p>
       </div>
-      <button type="button" class="btn btn-secondary">Añadir al carrito</button>
+      <button onclick="show()" type="button" class="btn btn-secondary">
+        Añadir al carrito
+      </button>
     </div>
   </body>
 </html>

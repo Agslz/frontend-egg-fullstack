@@ -6,6 +6,9 @@ body {
   background-attachment: fixed;
   background-size: 100%;
 }
+nav {
+  background-color: #ffff;
+}
 table {
   text-align: center;
   background-color: rgb(255, 251, 251);

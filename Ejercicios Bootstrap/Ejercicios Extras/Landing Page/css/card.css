@@ -6,6 +6,9 @@ body {
   background-attachment: fixed;
   background-size: 100%;
 }
+nav{
+  background-color: #ffff;
+}
 .card {
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.75);
