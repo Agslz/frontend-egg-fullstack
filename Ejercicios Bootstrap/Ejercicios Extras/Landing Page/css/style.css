@@ -30,6 +30,9 @@ nav {
 
 .float:hover {
   color: white;
+  /*display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;* Error por el transform translate*/
 }
 
 .my-float {
@@ -54,6 +57,9 @@ nav {
 
 .float2:hover {
   color: white;
+  /*display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;* Error por el transform translate*/
 }
 .my-float2 {
   margin-top: 16px;
@@ -106,5 +112,7 @@ nav {
 
 .float3:hover {
   color: white;
+  /*display: inline-block;
+  animation: bounce;
+  animation-duration: 1s;* Error por el transform translate*/
 }
-
