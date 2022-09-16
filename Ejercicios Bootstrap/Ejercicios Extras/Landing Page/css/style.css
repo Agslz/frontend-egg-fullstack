@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-image: url(../images/somos_egg_school.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -12,65 +12,34 @@ nav {
 .container-fluid a {
   font-size: 18px;
 }
+.wp:hover,
+.fb:hover,
+.ig:hover {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 0.8s;
+}
 
-.float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
+.fa-whatsapp {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
   background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px rgb(65, 61, 61);
-  z-index: 100;
-}
-
-.float:hover {
   color: white;
-  /*display: inline-block;
-  animation: bounce;
-  animation-duration: 1s;* Error por el transform translate*/
 }
 
-.my-float {
-  margin-top: 16px;
-}
-
-.float2 {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #1b4eda;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px rgb(65, 61, 61);
-  z-index: 100;
-  transform: translateX(-70px);
-}
-
-.float2:hover {
+.fa-facebook-square {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
   color: white;
-  /*display: inline-block;
-  animation: bounce;
-  animation-duration: 1s;* Error por el transform translate*/
+  background-color: #4267b2;
 }
-.my-float2 {
-  margin-top: 16px;
-}
-
-.float3 {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
+.fa-instagram {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
+  color: white;
   background: radial-gradient(
       circle farthest-corner at 35% 90%,
       #fec564,
@@ -97,22 +66,12 @@ nav {
       #f77638 70%,
       #fec66d 100%
     );
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px rgb(65, 61, 61);
-  z-index: 100;
-  transform: translateX(-140px);
 }
 
-.my-float3 {
-  margin-top: 16px;
+a {
+  text-decoration: none;
 }
 
-.float3:hover {
-  color: white;
-  /*display: inline-block;
-  animation: bounce;
-  animation-duration: 1s;* Error por el transform translate*/
+.pp {
+  transform: translate(60px);
 }

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <!--<link rel="icon" href="./images/"/ Falta SVG >-->
+    <!--Roboto Font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <!--Bootstrap CSS-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -19,6 +24,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!--Awesome Font-->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -57,32 +63,44 @@
             <a class="nav-link active" aria-current="page" href="./index.html"
               >Home</a
             >
-            <a class="nav-link" href="./tabla.html">Pagina Tabla</a>
+            <a class="nav-link" href="./tabla.html ">Pagina Tabla</a>
             <a class="nav-link" href="./formulario.html">Pagina Formulario</a>
           </div>
         </div>
       </div>
     </nav>
-    <a
-      href="https://api.whatsapp.com/send?phone=5492612537925&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20FullStack%20."
-      class="float"
-      target="_blank"
-    >
-      <i class="animate__animated animate__bounce fa fa-whatsapp my-float"></i>
-    </a>
-    <a
-      href="https://www.facebook.com/EggTechDigital"
-      class="float2"
-      target="_blank"
-    >
-      <i class="animate__animated animate__bounce fa fa-facebook my-float2"></i>
-    </a>
-    <a
-      href="https://www.instagram.com/eggcooperation/"
-      class="float3"
-      target="_blank"
-    >
-      <i class="animate__animated animate__bounce fa fa-instagram my-float3"></i>
-    </a>
+    <div class="container-fluid fixed-bottom p-3">
+      <div class="container-fluid d-flex justify-content-end pp">
+        <div>
+          <a
+            href="https://www.facebook.com/EggTechDigital"
+            class="container-icon me-4 fb"
+            target="_blank"
+          >
+            <i
+              class="animate__animated animate__jello fa fa-facebook-square"
+            ></i>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/eggcooperation/"
+            class="container-icon me-4 ig"
+            target="_blank"
+          >
+            <i class="animate__animated animate__jello fa fa-instagram"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5492612537925&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20FullStack%20."
+            class="container-icon me-5 wp"
+            target="_blank"
+          >
+            <i class="animate__animated animate__jello fa fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
