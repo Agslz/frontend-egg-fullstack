@@ -16,12 +16,13 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!--SweetAlert JS-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="./css/tabla.css" />
+    <script src="./js/index.js"></script>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light rounded rounded-3"
-    >
+    <nav class="navbar navbar-expand-lg navbar-light rounded rounded-3">
       <div class="container-fluid">
         <a
           target="_blank"
@@ -51,7 +52,7 @@
         </div>
       </div>
     </nav>
-    <table class="table ">
+    <table class="table">
       <thead>
         <tr>
           <th scope="col">Nombre</th>
@@ -64,8 +65,12 @@
           <td>Curso PM</td>
           <td>22.999</td>
           <td>
-            <a href="./404.html"
-              ><button type="button" class="btn btn-secondary">
+            <a
+              ><button
+                onclick="showBad()"
+                type="button"
+                class="btn btn-secondary"
+              >
                 Ver Producto
               </button></a
             >
@@ -75,8 +80,12 @@
           <td>Curso QA</td>
           <td>89.999</td>
           <td>
-            <a href="./404.html"
-              ><button type="button" class="btn btn-secondary">
+            <a
+              ><button
+                onclick="showBad()"
+                type="button"
+                class="btn btn-secondary"
+              >
                 Ver Producto
               </button></a
             >
